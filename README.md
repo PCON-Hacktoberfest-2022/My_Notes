@@ -14,6 +14,6 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
 ## 3. To run this project locally.
-Go to [CONTRIBUTION.md](https://github.com/PCON-Hacktoberfest-2022/Hostel_Complaint_Forum/blob/main/CONTRIBUTING.md) file.
+Go to [CONTRIBUTION.md](https://github.com/PCON-Hacktoberfest-2022/My_Notes/blob/main/CONTRIBUTING.md) file.
 
 ## Happy Coding 😊😎
