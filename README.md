@@ -13,4 +13,7 @@ For cloning this repository by using Git
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
+## 3. To run this project locally.
+Go to [CONTRIBUTION.md](https://github.com/PCON-Hacktoberfest-2022/Hostel_Complaint_Forum/blob/main/CONTRIBUTING.md) file.
+
 ## Happy Coding 😊😎
