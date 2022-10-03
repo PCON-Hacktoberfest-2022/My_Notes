@@ -116,14 +116,19 @@ public class MainActivity extends AppCompatActivity /*implements itemAdapter.ite
                         int resultCode=result.getResultCode();
                         Intent data=result.getData();
 
-                        if(resultCode==RESULT_OK && data!=null){
+                        if(data!=null){
                             String title=data.getStringExtra("titleLast");
                             String description=data.getStringExtra("descriptionLast");
                             int id=data.getIntExtra("noteId",-1);
 
                             Note note=new Note(title,description);
                             note.setId(id);
-                            noteViewModel.update(note);
+
+                            if(resultCode==RESULT_OK){
+                                noteViewModel.update(note);
+                            }else if(resultCode==404){
+                                noteViewModel.delete(note);
+                            }
                         }
                     }
                 });
