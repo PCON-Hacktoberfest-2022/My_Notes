@@ -46,9 +46,8 @@ public class MainActivity extends AppCompatActivity /*implements itemAdapter.ite
 
         registerActivityForAddNote();
         registerActivityForUpdateNote();
-
-        addBtn=findViewById(R.id.addbtn);
-        recyclerView=findViewById(R.id.items);
+        
+        intialize();
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -151,6 +150,11 @@ public class MainActivity extends AppCompatActivity /*implements itemAdapter.ite
                         }
                     }
                 });
+    }
+    
+    public void intialize(){
+        addBtn=findViewById(R.id.addbtn);
+        recyclerView=findViewById(R.id.items);
     }
 
     /*@Override
