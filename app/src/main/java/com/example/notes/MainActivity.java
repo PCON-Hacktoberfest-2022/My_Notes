@@ -153,8 +153,8 @@ public class MainActivity extends AppCompatActivity /*implements itemAdapter.ite
     }
     
     public void intialize(){
-        addBtn=findViewById(R.id.addbtn);
-        recyclerView=findViewById(R.id.items);
+        addBtn = findViewById(R.id.addbtn);
+        recyclerView = findViewById(R.id.items);
     }
 
     /*@Override
